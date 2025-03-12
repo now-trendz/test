@@ -239,6 +239,9 @@ text-align: center;
 
 /*media query starts here*/
 @media (max-width: 550px) {
+  body{
+    overflow: x-hidden;
+  }
   .header {
   width: 1000px;
   height: 15vh;
