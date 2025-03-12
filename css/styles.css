@@ -239,9 +239,6 @@ text-align: center;
 
 /*media query starts here*/
 @media (max-width: 550px) {
-  body{
-    background-color: red;
-}
   .header {
   width: 1000px;
   height: 15vh;
