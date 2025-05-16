@@ -1,15 +1,5 @@
-let currentIndex = 0;
-	const slider = document.getElementById('slider');
-	const totalImages = slider.children.length;
-	const imagesPerView = 3;
-
-  function moveSlider(direction) {
-    const maxIndex = totalImages - imagesPerView;
-    currentIndex += direction;
-    if (currentIndex < 0) currentIndex = 0;
-    if (currentIndex > maxIndex) currentIndex = maxIndex;
-    slider.style.transform = `translateX(-${(100 / imagesPerView) * currentIndex}%)`;
-  }
+// JavaScript for the hamburger menu
+// and the fade-in effect on the links
 
   const hamburger = document.querySelector('.hamburger');
   const navLinks = document.querySelector('.nav-links');
